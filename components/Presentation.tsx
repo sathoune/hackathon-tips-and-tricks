@@ -2,6 +2,7 @@
 import Reveal from "reveal.js";
 import { useEffect } from "react";
 import RevealRemote from "../remote/plugin";
+import SlidesContainer from "./SlidesContainer";
 
 const Presentation = () => {
   useEffect(() => {
@@ -24,11 +25,7 @@ const Presentation = () => {
   }, []);
   return (
     <div className="reveal">
-      <div className="slides">
-      <section>Section 1</section>
-      <section>Section 2</section>
-      <section>Section 3</section>
-      </div>
+      <SlidesContainer />
     </div>
   );
 };
