@@ -8,6 +8,7 @@ const Agenda = () => {
         <Lif>Ideas</Lif>
         <Lif>Implementation</Lif>
         <Lif>Presentation</Lif>
+        <Lif>Preparation</Lif>
       </ol>
     </section>
   );
