@@ -1,14 +1,18 @@
 import Lif from "../Commons/Lif";
+import { useTranslation } from "react-i18next";
 
 const Agenda = () => {
+  const { t } = useTranslation();
   return (
     <section>
       <h2>Agenda</h2>
       <ol>
-        <Lif>Ideas</Lif>
-        <Lif>Implementation</Lif>
-        <Lif>Presentation</Lif>
-        <Lif>Preparation</Lif>
+        {
+          // @ts-ignore
+          t("agenda.points", { returnObjects: true }).map((item, index) => (
+            <Lif key={index}>{item}</Lif>
+          ))
+        }
       </ol>
     </section>
   );

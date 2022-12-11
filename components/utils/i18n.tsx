@@ -1,27 +1,17 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import english from "./en";
+import polish from "./pl";
 
 // the translations
 // (tip move them in a JSON file and import them,
 // or even better, manage them separated from your code: https://react.i18next.com/guides/multiple-translation-files)
 const resources = {
   en: {
-    translation: {
-      title:
-        "Lighting round through polishing ideas, implementation and presenting",
-      about: {
-        title: "About me",
-      },
-    },
+    translation: english,
   },
   pl: {
-    translation: {
-      title:
-        "Błyskawiczna podróż po szlifowaniu pomysłów, implementacji oraz prezentacji",
-      about: {
-        title: "O mnie",
-      },
-    },
+    translation: polish,
   },
 };
 
