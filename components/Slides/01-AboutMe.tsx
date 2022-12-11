@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 const AboutMe = () => {
+  const { t } = useTranslation();
   return (
     <section>
-      <h2>About me</h2>
-      <div>{"It's me!"}</div>
+      <h2>{t("about.title")}</h2>
     </section>
   );
 };

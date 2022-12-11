@@ -9,12 +9,18 @@ const resources = {
     translation: {
       title:
         "Lighting round through polishing ideas, implementation and presenting",
+      about: {
+        title: "About me",
+      },
     },
   },
   pl: {
     translation: {
       title:
         "Błyskawiczna podróż po szlifowaniu pomysłów, implementacji oraz prezentacji",
+      about: {
+        title: "O mnie",
+      },
     },
   },
 };
