@@ -41,6 +41,28 @@ const implementation = {
     title: "Build value first",
   },
 };
+
+const presentation = {
+  0: {
+    title: "Presentation",
+  },
+  1: {
+    title: "Build a sketch",
+  },
+  2: {
+    title: "What to say",
+  },
+  3: {
+    title: "Speaker's notes",
+  },
+  4: {
+    title: "Presentation Content",
+  },
+  5: {
+    title: "Rehearse",
+  },
+};
+
 const english = {
   title:
     "Lighting round through polishing ideas, implementation and presenting",
@@ -53,6 +75,7 @@ const english = {
   },
   ideas: ideas,
   implementation: implementation,
+  presentation: presentation,
 };
 
 export default english;

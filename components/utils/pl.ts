@@ -41,6 +41,27 @@ const implementation = {
     title: "Buduj to, co ma wartość",
   },
 };
+const presentation = {
+  0: {
+    title: "Prezentacja",
+  },
+  1: {
+    title: "Zbuduj szkic",
+  },
+  2: {
+    title: "Co powiedzieć",
+  },
+  3: {
+    title: "Notatki prezentującego",
+  },
+  4: {
+    title: "Treść prezentacji",
+  },
+  5: {
+    title: "Powtarzaj",
+  },
+};
+
 const polish = {
   title:
     "Błyskawiczna podróż po szlifowaniu pomysłów, implementacji oraz prezentacji",
@@ -53,6 +74,7 @@ const polish = {
   },
   ideas: ideas,
   implementation: implementation,
+  presentation: presentation,
 };
 
 export default polish;
