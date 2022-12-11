@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const StartWithProblem = () => {
+  const { t } = useTranslation();
+
   return (
     <section>
-      <h2>Start with problem</h2>
+      <h2>{t("ideas.1.title")}</h2>
     </section>
   );
 };

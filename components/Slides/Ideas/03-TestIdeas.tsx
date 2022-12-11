@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const TestIdeas = () => {
+  const { t } = useTranslation();
+
   return (
     <section>
-      <h2>Test your ideas</h2>
+      <h2>{t("ideas.3.title")}</h2>
     </section>
   );
 };

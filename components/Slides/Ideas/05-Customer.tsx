@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const Customer = () => {
+  const { t } = useTranslation();
+
   return (
     <section>
-      <h2>Define Customers</h2>
+      <h2>{t("ideas.5.title")}</h2>
     </section>
   );
 };
