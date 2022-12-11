@@ -62,6 +62,21 @@ const presentation = {
   },
 };
 
+const preparation = {
+  0: {
+    title: "Przygotowanie",
+  },
+  1: {
+    title: "Narzedzia cyfrowe",
+  },
+  2: {
+    title: "Narzedzia fizyczne",
+  },
+  3: {
+    title: "Wyśpij się!",
+  },
+};
+
 const polish = {
   title:
     "Błyskawiczna podróż po szlifowaniu pomysłów, implementacji oraz prezentacji",
@@ -75,6 +90,7 @@ const polish = {
   ideas: ideas,
   implementation: implementation,
   presentation: presentation,
+  preparation: preparation,
 };
 
 export default polish;

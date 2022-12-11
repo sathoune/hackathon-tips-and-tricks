@@ -63,6 +63,21 @@ const presentation = {
   },
 };
 
+const preparation = {
+  0: {
+    title: "Preparation",
+  },
+  1: {
+    title: "Computer tools",
+  },
+  2: {
+    title: "Physical tools",
+  },
+  3: {
+    title: "Be rested!",
+  },
+};
+
 const english = {
   title:
     "Lighting round through polishing ideas, implementation and presenting",
@@ -76,6 +91,7 @@ const english = {
   ideas: ideas,
   implementation: implementation,
   presentation: presentation,
+  preparation: preparation,
 };
 
 export default english;
