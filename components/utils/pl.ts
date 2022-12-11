@@ -24,7 +24,23 @@ const ideas = {
     title: "Perspektywy",
   },
 };
-
+const implementation = {
+  0: {
+    title: "Implementacja",
+  },
+  1: {
+    title: "Używaj gita",
+  },
+  2: {
+    title: "Narzędzia do współpracy",
+  },
+  3: {
+    title: "Higiena psychiczna",
+  },
+  4: {
+    title: "Buduj to, co ma wartość",
+  },
+};
 const polish = {
   title:
     "Błyskawiczna podróż po szlifowaniu pomysłów, implementacji oraz prezentacji",
@@ -36,6 +52,7 @@ const polish = {
     points: ["Pomysły", "Implementacja", "Prezentacja", "Przygotowanie"],
   },
   ideas: ideas,
+  implementation: implementation,
 };
 
 export default polish;

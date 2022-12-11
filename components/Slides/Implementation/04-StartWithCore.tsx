@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const StartWithCore = () => {
+  const { t } = useTranslation();
+
   return (
     <section>
-      <h2>Build value first</h2>
+      <h2>{t("implementation.4.title")}</h2>
     </section>
   );
 };

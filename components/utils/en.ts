@@ -24,7 +24,23 @@ const ideas = {
     title: "Growth",
   },
 };
-
+const implementation = {
+  0: {
+    title: "Implementation",
+  },
+  1: {
+    title: "Use git",
+  },
+  2: {
+    title: "Collaboration tooling",
+  },
+  3: {
+    title: "Mental Hygiene",
+  },
+  4: {
+    title: "Build value first",
+  },
+};
 const english = {
   title:
     "Lighting round through polishing ideas, implementation and presenting",
@@ -36,6 +52,7 @@ const english = {
     points: ["Ideas", "Implementation", "Presentation", "Preparation"],
   },
   ideas: ideas,
+  implementation: implementation,
 };
 
 export default english;
