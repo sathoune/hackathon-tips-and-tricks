@@ -1,6 +1,7 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import Script from "next/script";
+import "../components/utils/i18n";
 
 const NoSSR = dynamic(() => import("../components/Presentation"), {
   ssr: false,
