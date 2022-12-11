@@ -6,7 +6,8 @@ const ideas = {
     title: "Start with a problem",
   },
   2: {
-    title: "Note!",
+    title: "Note everything!",
+    sillyIdeas: "Seemingly silly ideas can spark brilliant ones",
   },
   3: {
     title: "Question everything",

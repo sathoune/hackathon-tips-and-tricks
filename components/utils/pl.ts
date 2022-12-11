@@ -6,7 +6,8 @@ const ideas = {
     title: "Zacznij od problemu",
   },
   2: {
-    title: "Notuj!",
+    title: "Notuj wszystko!",
+    sillyIdeas: "Wyglądające na głupie pomysły mogą wywołać te genialne",
   },
   3: {
     title: "Kwestionuj wszystko",
