@@ -7,12 +7,11 @@ const Agenda = () => {
     <section>
       <h2>Agenda</h2>
       <ol>
-        {
-          // @ts-ignore
-          t("agenda.points", { returnObjects: true }).map((item, index) => (
-            <Lif key={index}>{item}</Lif>
-          ))
-        }
+        {(
+          t("agenda.points", { returnObjects: true }) satisfies Array<string>
+        ).map((item, index) => (
+          <Lif key={index}>{item}</Lif>
+        ))}
       </ol>
     </section>
   );
