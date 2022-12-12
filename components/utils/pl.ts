@@ -4,6 +4,12 @@ const ideas = {
   },
   1: {
     title: "Zacznij od problemu",
+    list: [
+      "Szukaj problemów, które dotyczą wielu osób",
+      "Jaką wartość daje rozwiązanie?",
+      "Badania rynkowe",
+      "Zbadaj dane na temat problemu",
+    ],
   },
   2: {
     title: "Notuj wszystko!",
@@ -11,15 +17,20 @@ const ideas = {
   },
   3: {
     title: "Kwestionuj wszystko",
+    askWhy:
+      "Pytaj dlaczego, a potem zapytaj dlaczego, a potem zapytaj jeszcze raz...",
   },
   4: {
     title: "Monetyzacja",
+    list: [
+      "Ludzie nie chcą płacić",
+      "Firmy płacą",
+      "Reklamy to niezbyt dobra metoda monetyzacji",
+    ],
   },
   5: {
     title: "Znajdź klientów",
-  },
-  6: {
-    title: "Zdefiniuj wartości",
+    list: ["Kto używałby twojego produktu?", "Dlaczego?", "Co z tego ma?"],
   },
   7: {
     title: "Perspektywy",

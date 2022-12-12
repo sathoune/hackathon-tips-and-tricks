@@ -4,6 +4,12 @@ const ideas = {
   },
   1: {
     title: "Start with a problem",
+    list: [
+      "Try looking for large scale issues",
+      "What value the solution brings?",
+      "Market research",
+      "Research data on the topic",
+    ],
   },
   2: {
     title: "Note everything!",
@@ -11,15 +17,23 @@ const ideas = {
   },
   3: {
     title: "Question everything",
+    askWhy: "Ask why, and then ask why, and then ask why again...",
   },
   4: {
     title: "Monetization",
+    list: [
+      "People don't want to pay",
+      "Companies do",
+      "Ads are mediocre monetization model",
+    ],
   },
   5: {
     title: "Find customers",
-  },
-  6: {
-    title: "Define values",
+    list: [
+      "Who would use your product?",
+      "Why would they use it?",
+      "What do they get out of it?",
+    ],
   },
   7: {
     title: "Growth",
