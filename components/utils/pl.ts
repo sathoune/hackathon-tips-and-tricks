@@ -16,11 +16,6 @@ const ideas = {
     sillyIdeas: "Wyglądające na głupie pomysły mogą wywołać te genialne",
   },
   3: {
-    title: "Kwestionuj wszystko",
-    askWhy:
-      "Pytaj dlaczego, a potem zapytaj dlaczego, a potem zapytaj jeszcze raz...",
-  },
-  4: {
     title: "Monetyzacja",
     list: [
       "Ludzie nie chcą płacić",
@@ -28,18 +23,24 @@ const ideas = {
       "Reklamy to niezbyt dobra metoda monetyzacji",
     ],
   },
-  5: {
+  4: {
     title: "Znajdź klientów",
     list: ["Kto używałby twojego produktu?", "Dlaczego?", "Co z tego ma?"],
   },
-  7: {
+  5: {
     title: "Perspektywy",
     list: [
       "Jak może się rozwinąć produkt?",
       "Jakie ryzyka mogą się pojawić?",
     ]
   },
+  6: {
+    title: "Kwestionuj wszystko",
+    askWhy:
+      "Pytaj dlaczego, a potem zapytaj dlaczego, a potem zapytaj jeszcze raz...",
+  },
 };
+
 const implementation = {
   0: {
     title: "Implementacja",

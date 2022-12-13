@@ -7,10 +7,10 @@ const Monetization = () => {
 
   return (
     <section>
-      <h2>{t("ideas.4.title")}</h2>
+      <h2>{t("ideas.3.title")}</h2>
       <ul>
         {(
-          t("ideas.4.list", { returnObjects: true }) satisfies Array<string>
+          t("ideas.3.list", { returnObjects: true }) satisfies Array<string>
         ).map((item: string, index: number) => (
           <Lif key={index}>{item}</Lif>
         ))}

@@ -16,10 +16,6 @@ const ideas = {
     sillyIdeas: "Seemingly silly ideas can spark brilliant ones",
   },
   3: {
-    title: "Question everything",
-    askWhy: "Ask why, and then ask why, and then ask why again...",
-  },
-  4: {
     title: "Monetization",
     list: [
       "People don't want to pay",
@@ -27,7 +23,7 @@ const ideas = {
       "Ads are mediocre monetization model",
     ],
   },
-  5: {
+  4: {
     title: "Find customers",
     list: [
       "Who would use your product?",
@@ -35,12 +31,16 @@ const ideas = {
       "What do they get out of it?",
     ],
   },
-  7: {
+  5: {
     title: "Growth",
     list: [
       "How the product might evolve?",
       "What are possible challenges ahead?",
     ],
+  },
+  6: {
+    title: "Question everything",
+    askWhy: "Ask why, and then ask why, and then ask why again...",
   },
 };
 const implementation = {

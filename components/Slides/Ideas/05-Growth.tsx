@@ -6,10 +6,10 @@ const Growth = () => {
 
   return (
     <section>
-      <h2>{t("ideas.7.title")}</h2>
+      <h2>{t("ideas.5.title")}</h2>
             <ul>
         {(
-          t("ideas.7.list", { returnObjects: true }) satisfies Array<string>
+          t("ideas.5.list", { returnObjects: true }) satisfies Array<string>
         ).map((item, index) => (
           <Lif key={index}>{item}</Lif>
         ))}

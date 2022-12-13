@@ -5,9 +5,9 @@ const TestIdeas = () => {
 
   return (
     <section>
-      <h2>{t("ideas.3.title")}</h2>
+      <h2>{t("ideas.6.title")}</h2>
       <ul>
-        <li>{t("ideas.3.askWhy")}</li>
+        <li>{t("ideas.6.askWhy")}</li>
       </ul>
       <aside className={"notes"}>
         <ul>

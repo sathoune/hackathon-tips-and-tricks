@@ -6,10 +6,10 @@ const Customer = () => {
 
   return (
     <section>
-      <h2>{t("ideas.5.title")}</h2>
+      <h2>{t("ideas.4.title")}</h2>
       <ul>
         {(
-          t("ideas.5.list", { returnObjects: true }) satisfies Array<string>
+          t("ideas.4.list", { returnObjects: true }) satisfies Array<string>
         ).map((item, index) => (
           <Lif key={index}>{item}</Lif>
         ))}
