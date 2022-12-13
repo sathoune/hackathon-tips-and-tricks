@@ -37,6 +37,10 @@ const ideas = {
   },
   7: {
     title: "Growth",
+    list: [
+      "How the product might evolve?",
+      "What are possible challenges ahead?",
+    ],
   },
 };
 const implementation = {

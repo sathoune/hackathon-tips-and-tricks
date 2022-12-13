@@ -34,6 +34,10 @@ const ideas = {
   },
   7: {
     title: "Perspektywy",
+    list: [
+      "Jak może się rozwinąć produkt?",
+      "Jakie ryzyka mogą się pojawić?",
+    ]
   },
 };
 const implementation = {
