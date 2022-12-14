@@ -7,7 +7,6 @@ import Presentation from "./Slides/05-Presentation";
 import Preparation from "./Slides/06-Preparation";
 import Thanks from "./Slides/07-Thanks";
 import Credits from "./Slides/08-Credits";
-import Questions from "./Slides/09-Questions";
 
 const SlidesContainer = () => {
   return (
@@ -21,7 +20,6 @@ const SlidesContainer = () => {
       <Preparation />
       <Thanks />
       <Credits />
-      <Questions />
     </div>
   );
 };
