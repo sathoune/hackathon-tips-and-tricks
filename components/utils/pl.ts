@@ -115,7 +115,7 @@ const preparation = {
     title: "Przygotowanie",
   },
   1: {
-    title: "Narzedzia",
+    title: "Narzędzia",
     list: ["Miej je gotowe", "Znaj je", "Kartka i długopis"],
   },
   2: {
