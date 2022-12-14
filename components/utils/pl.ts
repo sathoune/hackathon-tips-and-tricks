@@ -47,15 +47,35 @@ const implementation = {
   },
   1: {
     title: "Używaj gita",
+    list: [
+      "Mechanizm zapobiegający błędom",
+      "Dokumentuje poprzednie rozwiązania",
+      "Wraz z hostowaniem umożliwia łatwy dostęp",
+    ],
   },
   2: {
     title: "Narzędzia do współpracy",
+    list: [
+      "Programowanie grupowe",
+      "Code With Me od JetBrains",
+      "HackerEarth",
+      ],
   },
   3: {
-    title: "Higiena psychiczna",
+    title: "Higiena mentalna",
+    list: [
+      "Rób przerwy",
+      "Dziel pracę na etapy",
+      "Idź na kompromisy",
+      "Znaj swoje narzędzia",
+  ],
   },
   4: {
     title: "Buduj to, co ma wartość",
+    list: [
+      "Zacznij od rdzenia",
+      "Skup się na trudnych/nieznanych częściach",
+      ],
   },
 };
 const presentation = {
@@ -64,18 +84,42 @@ const presentation = {
   },
   1: {
     title: "Zbuduj szkic",
+    list: [
+      "Zbierz kluczowe informacje do przekazania",
+      ],
   },
   2: {
     title: "Co powiedzieć",
+    list: [
+      "Powiedz, co powiesz",
+      "Powiedz to, co chcesz powiedzieć",
+      "Powiedz to, co powiedziałeś",
+      ],
   },
   3: {
     title: "Notatki prezentującego",
+    list: [
+      "Kluczowe punkty",
+      "Sporządź kluczowe frazy",
+      "Raczej zrezygnuj ze szczegółowego scenariusza",
+      ],
   },
   4: {
     title: "Treść prezentacji",
+    list: [
+      "Nie czytaj slajdów",
+      "Używaj grafik",
+      "Przedstaw dane",
+      ],
   },
   5: {
-    title: "Powtarzaj",
+    title: "Powtarzaj prezentację",
+    list: [
+      "Zacznij wcześnie",
+      "Kontroluj tempo",
+      "Mierz czas",
+      "Znajdźcie rycerza na białym koniu wcześnie",
+      ],
   },
 };
 
@@ -84,12 +128,14 @@ const preparation = {
     title: "Przygotowanie",
   },
   1: {
-    title: "Narzedzia cyfrowe",
+    title: "Narzedzia",
+    list: [
+      "Miej je gotowe",
+      "Znaj je",
+      "Kartka i długopis",
+      ],
   },
   2: {
-    title: "Narzedzia fizyczne",
-  },
-  3: {
     title: "Wyśpij się!",
   },
 };

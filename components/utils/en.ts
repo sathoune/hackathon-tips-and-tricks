@@ -49,15 +49,35 @@ const implementation = {
   },
   1: {
     title: "Use git",
+    list: [
+      "Failsafe mechanism",
+      "Documents previous solutions",
+      "With hosting enables easy sharing",
+    ]
   },
   2: {
     title: "Collaboration tooling",
+    list: [
+      "Mob programming",
+      "Code With Me by JetBrains",
+      "HackerEarth"
+    ]
   },
   3: {
     title: "Mental Hygiene",
+    list: [
+      "Take breaks",
+      "Work in batches",
+      "Make compromises",
+      "Know your tools",
+    ]
   },
   4: {
     title: "Build value first",
+    list: [
+      "Build the core functionality first",
+      "Focus on difficult/unknown parts",
+      ]
   },
 };
 
@@ -67,18 +87,43 @@ const presentation = {
   },
   1: {
     title: "Build a sketch",
+    list: [
+      "Gather key points to communicate"
+    ]
   },
   2: {
     title: "What to say",
+    list: [
+      "Say what you'll say",
+      "Say it",
+      "Say what you said",
+    ]
   },
   3: {
     title: "Speaker's notes",
+    list: [
+      "Key points to touch upon",
+      "Note key phrases",
+      "Try not to have a script",
+    ]
   },
   4: {
     title: "Presentation Content",
+    list: [
+      "Don't read your slides",
+"Use images",
+      "Show data",
+      ]
+
   },
   5: {
     title: "Rehearse",
+    list: [
+      "Rehearse early",
+      "Control pacing",
+      "Measure time",
+      "Find the hero early"
+    ]
   },
 };
 
@@ -87,12 +132,14 @@ const preparation = {
     title: "Preparation",
   },
   1: {
-    title: "Computer tools",
+    title: "Tools",
+    list: [
+      "Have your tools ready",
+      "Know them",
+      "Pen & Paper"
+    ]
   },
   2: {
-    title: "Physical tools",
-  },
-  3: {
     title: "Be rested!",
   },
 };
