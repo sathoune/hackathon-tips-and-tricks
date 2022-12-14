@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import Lif from "../../Commons/Lif";
 
 const TestIdeas = () => {
   const { t } = useTranslation();
@@ -6,8 +7,12 @@ const TestIdeas = () => {
   return (
     <section>
       <h2>{t("ideas.6.title")}</h2>
-      <ul>
-        <li>{t("ideas.6.askWhy")}</li>
+       <ul>
+        {(
+          t("ideas.6.list", { returnObjects: true }) satisfies Array<string>
+        ).map((item, index) => (
+          <Lif key={index}>{item}</Lif>
+        ))}
       </ul>
       <aside className={"notes"}>
         <ul>

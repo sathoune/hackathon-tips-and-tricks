@@ -29,15 +29,15 @@ const ideas = {
   },
   5: {
     title: "Perspektywy",
-    list: [
-      "Jak może się rozwinąć produkt?",
-      "Jakie ryzyka mogą się pojawić?",
-    ]
+    list: ["Jak może się rozwinąć produkt?", "Jakie ryzyka mogą się pojawić?"],
   },
   6: {
     title: "Kwestionuj wszystko",
-    askWhy:
-      "Pytaj dlaczego, a potem zapytaj dlaczego, a potem zapytaj jeszcze raz...",
+    list: [
+      "pytaj dlaczego",
+      "a potem zapytaj dlaczego",
+      "a potem zapytaj jeszcze raz...",
+    ],
   },
 };
 
@@ -55,11 +55,7 @@ const implementation = {
   },
   2: {
     title: "Narzędzia do współpracy",
-    list: [
-      "Programowanie grupowe",
-      "Code With Me od JetBrains",
-      "HackerEarth",
-      ],
+    list: ["Programowanie grupowe", "Code With Me od JetBrains", "HackerEarth"],
   },
   3: {
     title: "Higiena mentalna",
@@ -68,14 +64,11 @@ const implementation = {
       "Dziel pracę na etapy",
       "Idź na kompromisy",
       "Znaj swoje narzędzia",
-  ],
+    ],
   },
   4: {
     title: "Buduj to, co ma wartość",
-    list: [
-      "Zacznij od rdzenia",
-      "Skup się na trudnych/nieznanych częściach",
-      ],
+    list: ["Zacznij od rdzenia", "Skup się na trudnych/nieznanych częściach"],
   },
 };
 const presentation = {
@@ -84,9 +77,7 @@ const presentation = {
   },
   1: {
     title: "Zbuduj szkic",
-    list: [
-      "Zbierz kluczowe informacje do przekazania",
-      ],
+    list: ["Zbierz kluczowe informacje do przekazania"],
   },
   2: {
     title: "Co powiedzieć",
@@ -94,7 +85,7 @@ const presentation = {
       "Powiedz, co powiesz",
       "Powiedz to, co chcesz powiedzieć",
       "Powiedz to, co powiedziałeś",
-      ],
+    ],
   },
   3: {
     title: "Notatki prezentującego",
@@ -102,15 +93,11 @@ const presentation = {
       "Kluczowe punkty",
       "Sporządź kluczowe frazy",
       "Raczej zrezygnuj ze szczegółowego scenariusza",
-      ],
+    ],
   },
   4: {
     title: "Treść prezentacji",
-    list: [
-      "Nie czytaj slajdów",
-      "Używaj grafik",
-      "Przedstaw dane",
-      ],
+    list: ["Nie czytaj slajdów", "Używaj grafik", "Przedstaw dane"],
   },
   5: {
     title: "Powtarzaj prezentację",
@@ -119,7 +106,7 @@ const presentation = {
       "Kontroluj tempo",
       "Mierz czas",
       "Znajdźcie rycerza na białym koniu wcześnie",
-      ],
+    ],
   },
 };
 
@@ -129,11 +116,7 @@ const preparation = {
   },
   1: {
     title: "Narzedzia",
-    list: [
-      "Miej je gotowe",
-      "Znaj je",
-      "Kartka i długopis",
-      ],
+    list: ["Miej je gotowe", "Znaj je", "Kartka i długopis"],
   },
   2: {
     title: "Wyśpij się!",
